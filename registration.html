@@ -1,0 +1,68 @@
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Javascript Mission</title>
+     <link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://kit.fontawesome.com/ee3c098242.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="registration.css">
+	</head>
+<body>
+
+
+<!-- Challenge-1 -->
+	<div class="header">
+		<div class="age">
+			<p >Challenge-1: Calculate your age</p>
+			<input type="date" id="age-date">
+			<button id="btn" class="btn btn-age">Find Age</button>
+			<button onclick="reset()" id="reset-btn" class="btn btn-rst">reset</button>
+			<h4 id="message"></h4>
+			<h5 id="result"></h5>
+		</div>
+	<!-- challenge-2 -->
+		<div class="flexible-img">
+			<p>Challenge-2: Creat flexible button with image</p>
+			<button id="gen-btn" onclick="generate()" class="btn btn-gen">Generate image</button>
+			<div id="generate-img">
+			</div>
+		</div>
+<!--challenge-3-->
+		<div class="challenge-3">
+			<p>challenge-3: Rock, Paper, 2-finger</p>
+			<img src="rock.png" alt="" onclick="rpsGame(this)">
+			<img src="paper.png" alt="" onclick="rpsGame(this)">
+			<img src="2finger-removebg-preview.png" alt="" onclick="rpsGame(this)">
+
+		</div>
+		<!--challenge-4-->
+		<div class="challenge-4">
+			<p>Challenge-4: Change color of all button</p>
+			<form action="" id="form-action">
+				<select name="backdrop" id="backdrops" onchange="btncolorchange(this)">
+					<option value="random">Random</option>
+					<option value="red">red</option>
+					<option value="green">green</option>
+					<option value="reset">reset</option>
+				</select>
+
+			</form>
+			<button class="btn btn-primary">Facebook</button>
+			<button class="btn btn-yahoo">yahoo</button>
+			<button class="btn btn-google">google</button>
+		<button class="btn btn-twitter">twitter</button>
+			
+   		
+
+	
+	
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+        <script src="js.js"></script>
+
+
+</body>
+</html>
